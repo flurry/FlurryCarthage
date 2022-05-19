@@ -10,7 +10,9 @@
 
     github "flurry/FlurryCarthage" ~> 12.0.0
 
-   4. Run carthage update --use-xcframeworks
+   4. Run 
+   
+    carthage update --use-xcframeworks
 
     A Cartfile.resolved file and a Carthage directory will appear in the same directory where your .xcodeproj or .xcworkspace is
 
