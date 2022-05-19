@@ -16,6 +16,8 @@
 
     A Cartfile.resolved file and a Carthage directory will appear in the same directory where your .xcodeproj or .xcworkspace is
 
-   5. Drag the built .xcframework bundles from Carthage/Build into the "Frameworks and Libraries" section of your application’s Xcode project.
+   5. Drag the built .xcframework bundles from Carthage/Build into the "Frameworks and Libraries" section of your application’s Xcode project. Note FlurryMessaging and Config require Analytics.
+
+   6. Add the SystemConfiguration framework to the app.
 
    6. If you are using Carthage for an application, select "Embed & Sign", otherwise "Do Not Embed".
